@@ -1,6 +1,5 @@
 /*
 Таблица employees
-
 1) Создать таблицу employees
 - id. serial,  primary key,
 - employee_name. Varchar(50), not null
@@ -12,25 +11,24 @@ create table employees (
 	employee_name varchar(50) not null
 );
 
-insert into employees (employee_name)
-values   
-  ('Desirae Hayes'),
-  ('Renee Walter'),
-  ('Mallory Thornton'),
-  ('Kato Carrillo'),
-  ('Marcia Cleveland'),
-  ('Salvador Kinney'),
-  ('Kyra Rodgers'),
-  ('Wylie Woods'),
-  ('Hyatt Long'),
-  ('Jescie Keith'),
-  ('Bruno Sloan'),
-  ('Lysandra Dotson'),
-  ('Cally Mccoy'),
-  ('Guy Stephenson'),
-  ('Bert Hawkins'),
-  ('Barrett Hendricks'),
-  ('Harlan Rodriquez'),
+insert into employees (employee_name) values 
+  ('Linda Paul'),
+  ('Octovian Sanny'),
+  ('Megan Epega'),
+  ('Giga Chad'),
+  ('Miley Smiley'),
+  ('Kira Kidney'),
+  ('Lindsey Booger'),
+  ('Papyrus Loves'),
+  ('Harry Potter'),
+  ('Jessica Kate'),
+  ('Bruno Mars'),
+  ('Gwen Miller'),
+  ('Cascad Jhones'),
+  ('Jio Jhongh'),
+  ('Ferry Louise'),
+  ('Cortney Hendy'),
+  ('Ganna Guanna'),
   ('Mason Carey'),
   ('Glenna Acosta'),
   ('Victoria Bailey'),
@@ -39,14 +37,14 @@ values
   ('Lani Herrera'),
   ('Karyn Holt'),
   ('Cheryl Ewing'),
-  ('Nomlanga Chen'),
+  ('Shelly Rivas'),
   ('Burke Richardson'),
   ('Abdul Deleon'),
   ('Zeph Jennings'),
   ('Rajah Battle'),
   ('Lacey Tate'),
   ('Hammett Cortez'),
-  ('Shelly Rivas'),
+  ('Oprah Unna'),
   ('Bert Schultz'),
   ('Kaseem Herrera'),
   ('Christian Tyson'),
@@ -55,7 +53,7 @@ values
   ('Hollee Christensen'),
   ('Lucas Nash'),
   ('Kenneth Albert'),
-  ('Geoffrey Forbes'),
+  ('Dilon Forbes'),
   ('Illana Nguyen'),
   ('Dylan Travis'),
   ('Zoe Palmer'),
@@ -71,14 +69,14 @@ values
   ('Heather Durham'),
   ('Ferris Fowler'),
   ('Zoe Maxwell'),
-  ('Bo Hudson'),
+  ('Boris Eltzin'),
   ('Jesse Velasquez'),
   ('Joel James'),
   ('Jerome Mcconnell'),
   ('Craig Rowe'),
   ('Octavius Garrett'),
   ('Claudia Carlson'),
-  ('Kalia Austin'),
+  ('Katya Minaj'),
   ('Ginger Conley'),
   ('Hashim Ayala'),
   ('Sybil Hamilton'),
@@ -194,7 +192,7 @@ create table roles (
 );
 
 alter table roles
-alter column role_name type varchar (30);
+ALTER COLUMN role_name TYPE varchar(30);
 
 insert into roles (role_name)
 values
